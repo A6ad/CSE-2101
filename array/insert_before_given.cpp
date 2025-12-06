@@ -8,7 +8,7 @@ int main()
     int pos = 3;
     int value =100;
 
-    for(int i=n;i<pos;i++)
+    for(int i=n;i>pos-1;i--)
     {
         arr[i] = arr[i-1];    
     }
@@ -17,9 +17,9 @@ int main()
     n++;
 
     for(int i=0;i<n;i++)
-{
-    cout<<arr[i]<<" ";
-}
+    {
+        cout<<arr[i]<<" ";
+    }
 
 
 }
